@@ -5,7 +5,14 @@
     <link href="./style/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
  </head>
- <body>
+ <body class="body">
+  <style>
+    .body{
+      background-image:url(./assets/e1a2ff04e1.gif);
+      background-size: 169px;
+      background-color: rgb(255, 194, 129);
+       }
+  </style>
 	  <div class="hmm">
       <style>
         .hmm{
@@ -23,7 +30,7 @@
               text-align: center;
               font-size: 200%;
               font-family: monospace;
-              color: white;
+              color: rgb(0, 0, 0);
               height: 180px;
               background: #2b2b2b;
             };
@@ -33,7 +40,7 @@
               text-align: center;
               font-family: monospace;
               color: white;
-              background: #2b2b2b;
+              background-color: transparent;
               text-decoration: none;
             }
           </style>
@@ -51,7 +58,12 @@
        </br>
        <h3>
         <a class="titulo">trenza relleno de queso</a></h3>
-        <p><image src = './assets/comidas/Pan trenza.jpeg'></image></p>
+        <p><image class="za" src = './assets/comidas/Pan trenza.jpeg'></image></p>
+        <style>
+          .za{
+              width: 35%;
+          }
+      </style>
         <p>Pan con tiras de queso trensadas en su interior y queso gratinado en la parte superior</p>
         <p><h3><a class="Precio">$6.500</a></h3></p></br>
       </div>
@@ -59,7 +71,7 @@
         </br>
         <h3>
         <a class="titulo">Pan blandito</a></h3>
-        <p><image src = "./assets/comidas/Pan blandito.jpeg"></image></p>
+        <p><image class="za" src = "./assets/comidas/Pan blandito.jpeg"></image></p>
         <p>Pan hecho de harina de trigo con una textura muy suave</p>
         <p><h3><a class="Precio">$300</a></h3></p></br>
       </div>
@@ -67,7 +79,7 @@
        </br>
        <h3>
        <a class="titulo">Buñuelo</a></h3>
-       <p><image src = "assets/comidas/Buñuelo.jpeg"></image></p>
+       <p><image class="za" src = "assets/comidas/Buñuelo.jpeg"></image></p>
        <p>Crocantes por fuera, esponjosos por dentro, con una explosión de sabor a queso</p>
        <p><h3><a class="Precio">$1000</a></h3></p></br>
        </div>
@@ -75,7 +87,8 @@
         </br>
         <h3>
         <a class="titulo">Baguette</a></h3>
-        <p><image src = "./assets/comidas/Bagette.jpeg"></image></p>
+        <p><image class="za" src = "./assets/comidas/Bagette.jpeg"></image></p>
+
         <p>Inigualable de corteza dura y crujiente ideal para acompañar la pasta</p>
         <p><h3><a class="Precio">$2000</a></h3></p></br>
        </div>
@@ -83,7 +96,7 @@
         </br>
         <h3>
         <a class="titulo">Croissant</a></h3>
-        <p><image src = './assets/comidas/Croissant.jpeg'></image></p>
+        <p><image class="za" src = './assets/comidas/Croissant.jpeg'></image></p>
         <p>Pan de hojaldre relleno de queso, jamón y queso, arequipe o dulce de guayaba, antojo de sal o de dulce</p>
         <p><h3><a class="Precio">$1500</a></h3></p></br>
        </div>
@@ -91,7 +104,7 @@
         </br>
         <h3>
         <a class="titulo">Almojabana</a></h3>
-        <p><image src = './assets/comidas/Almojabana.jpeg'></image></p>
+        <p><image class="za" src = './assets/comidas/Almojabana.jpeg'></image></p>
         <p>Producto de origen colombiano, hecho con una proporción ideal de queso</p>
         <p><h3><a class="Precio">$1500</a></h3></p></br>
        </div>
@@ -99,7 +112,7 @@
         </br>
         <h3>
         <a class="titulo">Pan Herradura</a></h3>
-        <p><image src = './assets/comidas/Pan herradura.jpeg'></image></p>
+        <p><image class="za" src = './assets/comidas/Pan herradura.jpeg'></image></p>
         <p>Elaborado principalmente con almidón de yuca y queso, exquisita receta colombiana</p>
         <p><h3><a class="Precio"></a></h3></p></br>
        </div>
@@ -107,7 +120,7 @@
     </br>
     <h3>
     <a class="titulo">Pan grande</a></h3>
-    <p><image src = './assets/comidas/Pan grande.jpeg'></image></p>
+    <p><image class="za" src = './assets/comidas/Pan grande.jpeg'></image></p>
     <p>Le ofrecemos  pan grande de queso, maíz, arroz, aliñado, cereales o centeno para su elección</p>
     <p><h3><a class="Precio">$3000</a></h3></p></br>
   </div>
@@ -115,7 +128,7 @@
    </br>
    <h3>
    <a class="titulo">Palito de queso</a></h3>
-   <p><image src = './assets/comidas/Palito de queso.jpeg'></image></p>
+   <p><image class="za" src = './assets/comidas/Palito de queso.jpeg'></image></p>
    <p>Delicioso hojaldre relleno de queso en forma lineal</p>
    <p><h3><a class="Precio">$1500</a></h3></p></br>
    </div>
@@ -147,6 +160,8 @@
           }
           .ugh{
               margin-top: 5%;
+              margin-left: 10%;
+              margin-right: 10%;
               background: #2b2b2b;  
           }
           .titulo{
